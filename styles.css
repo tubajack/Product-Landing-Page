@@ -1,0 +1,30 @@
+body{
+  display: flex;
+}
+
+.img{
+  width: 50%;
+  height: 50%;
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: white;
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+  padding: 1em;
+}
+
+#header-img{
+  width: 50%;
+  height: 50%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
